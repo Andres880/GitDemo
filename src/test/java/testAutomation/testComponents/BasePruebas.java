@@ -49,6 +49,8 @@ public class BasePruebas{
 		}
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		//La el metodo maximize ampliara la ventana del navegador
 		driver.manage().window().maximize();
 		
 		return driver;

@@ -16,6 +16,7 @@ public class ElimitarTareaPrueba extends BasePruebas{
 	@Test
 	public void eliminaTarea()
 	{
+		//Metodo para iniciar sesión
 		PaginaAgregarTarea pat = paginaInicio.paginaInicio(usuarioEmail, contraseña);
 		DeleteTask dt = pat.deletTask();
 		Assert.assertTrue(dt.taskDelete(nombreTarea));
