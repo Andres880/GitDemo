@@ -14,6 +14,7 @@ public class TareaPruebas extends BasePruebas{
 	@Test
 	public void tarea()
 	{
+		//Metodo de inicio de sesión de pagina de inicio
 		paginaInicio.paginaInicio(usuarioEmail, contraseña);
 		
 		

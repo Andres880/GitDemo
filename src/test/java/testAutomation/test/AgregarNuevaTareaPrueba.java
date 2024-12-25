@@ -16,6 +16,7 @@ public class AgregarNuevaTareaPrueba extends BasePruebas{
 	@Test
 	public void agregarNuevaTarea()
 	{
+		//Metodo el cual agrega una tarea y verifica si la tarea fue agregada
 		PaginaAgregarTarea paginaAgregarTarea = paginaInicio.paginaInicio(usuarioEmail, contraseña);
 		VerificarTareaAgregada verificarTareaAgregada = paginaAgregarTarea.agregarTarea(nombreTarea);
 		Assert.assertTrue(verificarTareaAgregada.verificarTarea(nombreTarea));

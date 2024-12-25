@@ -16,6 +16,7 @@ public class ModificarTareaPrueba extends BasePruebas {
 	@Test
 	public void modificarTareaPrueba()
 	{
+		//Metodo el cual edita una tarea
 	PaginaAgregarTarea paginaAgregarTarea = paginaInicio.paginaInicio(usuarioEmail, contraseña);
 	EditarTarea editarTarea =  paginaAgregarTarea.botonEditarTarea();
 	Assert.assertTrue(editarTarea.editTarea(nombreTarea, nuevaTareaEdit));
