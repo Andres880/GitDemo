@@ -29,6 +29,7 @@ public class BasePruebas{
 		FileInputStream fis = new FileInputStream(f);
 		pro.load(fis);
 		
+		//Trae todas las propiedades de los motores de busqueda
 		String browserName = pro.getProperty("Browser");
 		
 		
@@ -67,6 +68,7 @@ public class BasePruebas{
 //	{
 //		driver.close();
 //	}
+	
 	
 	
 }
