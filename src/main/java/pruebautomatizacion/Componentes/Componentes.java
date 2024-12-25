@@ -42,6 +42,7 @@ public class Componentes {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
+	//Funcion el cual tiene objeto para editar tarea
 	public EditarTarea botonEditarTarea()
 	{
 		EditarTarea editarTarea = new EditarTarea(driver);

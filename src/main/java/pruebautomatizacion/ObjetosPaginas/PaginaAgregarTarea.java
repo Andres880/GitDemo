@@ -33,6 +33,7 @@ public class PaginaAgregarTarea extends Componentes {
 	
 	public WebElement botonAgregarTarea()
 	{
+		//Funcion el cual presiona boton agregar tarea
 		waitForElementToAppear(botonTarea);
 		return submitAgregar;
 	}	
